@@ -14,95 +14,18 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "story_telling.html",
-    "href": "story_telling.html",
+    "objectID": "exploration.html",
+    "href": "exploration.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "story_telling.html#title-2-header",
-    "href": "story_telling.html#title-2-header",
+    "objectID": "exploration.html#title-2-header",
+    "href": "exploration.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "competition.html#title-2-header",
-    "href": "competition.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "Cleansing_Projects/project1.html",
-    "href": "Cleansing_Projects/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project2.html",
-    "href": "Cleansing_Projects/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "full_stack.html",
-    "href": "full_stack.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "full_stack.html#title-2-header",
-    "href": "full_stack.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "cleansing.html",
-    "href": "cleansing.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "cleansing.html#title-2-header",
-    "href": "cleansing.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics"
-  },
-  {
-    "objectID": "Cleansing_Projects/project4.html",
-    "href": "Cleansing_Projects/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project3.html",
-    "href": "Cleansing_Projects/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Cleansing_Projects/project5.html",
-    "href": "Cleansing_Projects/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -119,17 +42,143 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "exploration.html",
-    "href": "exploration.html",
+    "objectID": "Cleansing_Projects/project5.html",
+    "href": "Cleansing_Projects/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Projects/project3.html",
+    "href": "Cleansing_Projects/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Projects/project4.html",
+    "href": "Cleansing_Projects/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "cleansing.html",
+    "href": "cleansing.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "exploration.html#title-2-header",
-    "href": "exploration.html#title-2-header",
+    "objectID": "cleansing.html#title-2-header",
+    "href": "cleansing.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "full_stack.html#title-2-header",
+    "href": "full_stack.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "Cleansing_Projects/project2.html",
+    "href": "Cleansing_Projects/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Projects/project1.html",
+    "href": "Cleansing_Projects/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "competition.html#title-2-header",
+    "href": "competition.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "story_telling.html",
+    "href": "story_telling.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "story_telling.html#title-2-header",
+    "href": "story_telling.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "Computer/Data Scientist, student.\n\njoelsemail28@gmail.com\n\n\n\nStudent at BYU-Idaho studying computer science and data science.\n\n\nMachine learning, artificial intelligence, data analysis.\n\n\n\nMachine learning algorithms, NLP, deep learning models.\n\n\n\n\nJanuary 2024-Present BYU-Idaho Data Science Society, - Worked with data delivered by Grow with Google - Provided system which handles course licenses and provides flow for license queue.\n\n\n\n\nPython\nPandas\nPlotly Express\nSQL/SQLite\nTableau\nHTML\nCSS\n\n\n\n\n2014-2017 Lone Peak High School\n2023-Now Brigham Young University-Idaho\n\n\n\nJan 2024-Present Data Science Teacher Assistant, BYU-Idaho\n\nCollect data pertaining to student feedback\nHelp students develop data-related intuition\nProvide feedback on data visualizations to students\nGrade students’ work\n\nJune 2023-August 2023 Personal Assistent, Acumen - Assisted disabled teenager in goals relating to hygiene, sociality, and other daily tasks\nOctober 2022-June 2023 Technical Support Specialist, Jolt - Engaged with customers over phone to troubleshoot software and hardware - Worked with developers to investigate and remove bugs - Worked with shipping department to process hardware replacements\nSeptember 2020-September 2022 Missionary, Church of Jesus Christ of Latter-day Saints - Invited others to learn about religious beliefs - Conducted instructive meetings for other missionaries - Trained other missionaries on teaching strategies\nFebruary 2019-June 2019 General Contractor, Renaissance Homes - Constructed home renovations, fixed roof leaks, and plumbing\nJuly 2018-February 2019 Waiter, China Kitchen - Served customers - Took orders - Communicated with chefs - Explained menu items\n\n\n\nMarch 2018-July 2018 English Teacher, International Language Programs - Planned and taught English lessons through immersive activities and repetition to 2nd and 3rd grade students"
+  },
+  {
+    "objectID": "resume.html#currently",
+    "href": "resume.html#currently",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "Student at BYU-Idaho studying computer science and data science.\n\n\nMachine learning, artificial intelligence, data analysis.\n\n\n\nMachine learning algorithms, NLP, deep learning models."
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "January 2024-Present BYU-Idaho Data Science Society, - Worked with data delivered by Grow with Google - Provided system which handles course licenses and provides flow for license queue."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "Python\nPandas\nPlotly Express\nSQL/SQLite\nTableau\nHTML\nCSS"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "2014-2017 Lone Peak High School\n2023-Now Brigham Young University-Idaho"
+  },
+  {
+    "objectID": "resume.html#occupation",
+    "href": "resume.html#occupation",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "Jan 2024-Present Data Science Teacher Assistant, BYU-Idaho\n\nCollect data pertaining to student feedback\nHelp students develop data-related intuition\nProvide feedback on data visualizations to students\nGrade students’ work\n\nJune 2023-August 2023 Personal Assistent, Acumen - Assisted disabled teenager in goals relating to hygiene, sociality, and other daily tasks\nOctober 2022-June 2023 Technical Support Specialist, Jolt - Engaged with customers over phone to troubleshoot software and hardware - Worked with developers to investigate and remove bugs - Worked with shipping department to process hardware replacements\nSeptember 2020-September 2022 Missionary, Church of Jesus Christ of Latter-day Saints - Invited others to learn about religious beliefs - Conducted instructive meetings for other missionaries - Trained other missionaries on teaching strategies\nFebruary 2019-June 2019 General Contractor, Renaissance Homes - Constructed home renovations, fixed roof leaks, and plumbing\nJuly 2018-February 2019 Waiter, China Kitchen - Served customers - Took orders - Communicated with chefs - Explained menu items"
+  },
+  {
+    "objectID": "resume.html#volunteer-experience",
+    "href": "resume.html#volunteer-experience",
+    "title": "Joel Jensen’s CV",
+    "section": "",
+    "text": "March 2018-July 2018 English Teacher, International Language Programs - Planned and taught English lessons through immersive activities and repetition to 2nd and 3rd grade students"
   }
 ]
