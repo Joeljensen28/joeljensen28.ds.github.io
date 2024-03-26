@@ -1,0 +1,103 @@
+---
+layout: cv
+title: Joel Jensen's CV
+---
+# Joel Jensen
+Computer/Data Scientist, student.
+
+<div id="webaddress">
+<a href="isaac@applesdofall.org">joelsemail28@gmail.com</a>
+</div>
+
+
+## Currently
+
+Student at BYU-Idaho studying computer science and data science.
+
+### Specialized in
+
+Machine learning, artificial intelligence, data analysis.
+
+
+### Research interests
+
+Machine learning algorithms, NLP, deep learning models.
+
+
+
+## Projects
+`January 2024-Present`
+__BYU-Idaho Data Science Society__,
+- Worked with data delivered by Grow with Google
+- Provided system which handles course licenses and provides flow for license queue.
+
+
+## Skills
+- Python
+- Pandas
+- Plotly Express
+- SQL/SQLite
+- Tableau
+- HTML
+- CSS
+
+
+## Education
+
+`2014-2017`
+__Lone Peak High School__
+
+`2023-Now`
+__Brigham Young University-Idaho__
+
+
+
+## Occupation
+
+`Jan 2024-Present`
+__Data Science Teacher Assistant__, BYU-Idaho
+
+- Collect data pertaining to student feedback
+- Help students develop data-related intuition
+- Provide feedback on data visualizations to students
+- Grade students' work
+
+`June 2023-August 2023`
+__Personal Assistent__, Acumen
+- Assisted disabled teenager in goals relating to hygiene, sociality, and other daily tasks
+
+`October 2022-June 2023`
+__Technical Support Specialist__, Jolt
+- Engaged with customers over phone to troubleshoot software and hardware
+- Worked with developers to investigate and remove bugs
+- Worked with shipping department to process hardware replacements
+
+`September 2020-September 2022`
+__Missionary__, Church of Jesus Christ of Latter-day Saints
+- Invited others to learn about religious beliefs
+- Conducted instructive meetings for other missionaries
+- Trained other missionaries on teaching strategies
+
+`February 2019-June 2019`
+__General Contractor__, Renaissance Homes
+- Constructed home renovations, fixed roof leaks, and plumbing
+
+`July 2018-February 2019`
+__Waiter__, China Kitchen
+- Served customers
+- Took orders
+- Communicated with chefs
+- Explained menu items
+
+
+
+## Volunteer experience
+
+`March 2018-July 2018`
+__English Teacher__, International Language Programs
+- Planned and taught English lessons through immersive activities and repetition to 2nd and 3rd grade students
+
+
+<!-- ### Footer
+
+Last updated: May 2013 -->
