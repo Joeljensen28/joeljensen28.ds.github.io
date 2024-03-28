@@ -1,10 +1,10 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
+title: "Data Cleansing"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+# Experience with data cleansing
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+- [Cleansing Missing Flight Data] (https://joeljensen28.github.io/joeljensen28.ds.github.io/P2.html)
+
+- [Analyzing Baseball Data Using SQLite] (https://joeljensen28.github.io/joeljensen28.ds.github.io/P3.html)

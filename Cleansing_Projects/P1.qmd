@@ -1,0 +1,220 @@
+---
+title: "Client Report - What's in a Name?"
+subtitle: "DS 250"
+author: "Joel Jensen"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+import plotly.express as px
+#This program makes use of the datetime library to provide accurate, up-to-date information about names.
+from datetime import datetime as dt
+```
+
+
+## Why does this data matter?
+
+_Using the data we've collected about names, we can identify the impact trends, cultural shifts, films, and other products have on the lives of Americans. If we can spot correlations between name usage and historical events, we can estimate the impact other significant products may have in the future._
+
+```{python}
+#| label: project data
+#| code-summary: Dataset
+# Dataset can be found here:
+names = pd.read_csv("https://raw.githubusercontent.com/byuidatascience/data4names/master/data-raw/names_year/names_year.csv")
+##Creates a new column to calculate what percentage of the population has that name in that year
+names["percent_of_population"] = (names["Total"] / names.groupby("year")["Total"].transform("sum")) * 100
+##Creates a new column to calculate the age of each person in that year
+names["age"] = dt.now().year - names["year"]
+```
+
+## Can we track the usage of individual names?
+
+__Yes, we can query specific names and isolate their trends.__
+
+_Here, we have plotted the usage of the name "Joel" (my own name) over time_
+
+```{python}
+#| label: Q1 chart
+#| code-summary: chart
+just_joel = names.query("name == 'Joel'")
+
+px.line(
+    just_joel, 
+    x="year", 
+    y="percent_of_population", 
+    labels={"year": "Years", 
+            "percent_of_population": "% of Population"},
+    title="People Named Joel Over the Years"
+).add_vline(x=1999,
+            line_dash="dot",
+            line_color="#BABBBB"            
+).add_annotation(
+    x=2000,
+    y=0.16,
+    text="1999",
+    showarrow=False,
+    textangle=90,
+    font=dict(size=18)
+).add_annotation(
+    x=1999,
+    y=0.1080671,
+    text="0.108%",
+    showarrow=True,
+    ax=-40,
+    ay=50,
+    font=dict(size=18)
+)
+```
+
+_We can see here that I was given my name 20 years after it reached its peak popularity of a whopping .16% of the population, which explains why I've never met anyone else with my name._
+
+## What can we learn about the demographics of people with particular names?
+
+__Quite a bit. For example, we can learn the most probable age of anyone with a given name.__
+
+_Now we're plotting the count of the age of Brittanies_
+
+```{python}
+#| label: Q2 chart
+#| code-summary: chart
+just_brittany = names.query("name == 'Brittany'")
+
+px.histogram(
+    just_brittany, 
+    nbins=80,
+    x="age", 
+    y="Total",
+    title="Age of People Named Brittany",
+    labels={"age": "Age in Years",
+            "Total": "Brittanies"}
+).add_annotation(
+    x=34,
+    y=32562.5,
+    text="34 Years",
+    showarrow=True,
+    ax=30,  
+).add_bar(
+    x=[34],
+    y=[32562.5],
+    base="red"
+).update_layout(
+    showlegend=False
+)
+```
+
+_If you were to talk to someone named Brittany on the phone and she offered you $1 million if you guessed her age, your best bet would be 34 years._
+
+## What cultural trends can we spot with this data?
+
+__All sorts. For example, we can look at the popularity of several names over time at once.__
+
+_Here we've plotted three Christian names from 1920-2000._
+
+```{python}
+#| label: Q3 chart
+#| code-summary: Chart
+mary_martha_peter_paul = names[
+    (names['name'].isin(['Mary', 'Martha', 'Peter', 'Paul'])) &
+    (names['year'].isin(range(1920, 2001)))
+]
+
+px.line(mary_martha_peter_paul, 
+        x="year", 
+        y="percent_of_population", 
+        color="name",
+        labels={"percent_of_population": "% of Population",
+                "year": "Year"},
+        title="Mary, Martha, Peter, and Paul Over the Years",
+        color_discrete_map={"Mary": "red", "Paul": "#1BB476", "Martha": "#A5B102", "Peter": "#9467bd"}
+).add_annotation(
+    x=1950,
+    y=1.9,
+    showarrow=False,
+    text="Mary",
+    font=dict(color="red")
+).add_annotation(
+    x=1945,
+    y=.9,
+    showarrow=False,
+    text="Paul",
+    font=dict(color="#1BB476")
+).add_annotation(
+    x=1953,
+    y=.45,
+    showarrow=False,
+    text="Martha",
+    font=dict(color="#A5B102")
+).add_annotation(
+    x=1932,
+    y=0.075,
+    showarrow=False,
+    text="Peter",
+    font=dict(color="#9467bd")
+).update_layout(
+    showlegend=False
+)
+```
+
+_As we can see, almost all of these Christian names have been in decline, especially since the 50s-60s when anti-religious sentiment started to become more prominent in the US due to cultural shifts. (Note that I am colorblind so some of these colors may look a little wonky)_
+
+## How can this help us from a business perspective?
+
+__By analyzing trends in names relative to the release of a product, we can determine if a product was successful and analyze components that may have lead to its success.__
+
+_The following is a chart that shows the popularity of the name Walter from 2005-2015._
+
+```{python}
+#| label: Q4 chart
+#| code-summary: Walter chart
+walter = names[
+    (names['name'].isin(['Walter'])) &
+    (names['year'].isin(range(2005, 2016)))
+]
+px.line(walter, 
+        x="year", 
+        y="percent_of_population",
+        labels={"percent_of_population": "% of Population",
+                "year": "Year"},
+        title="People Named Walter"
+).add_vline(
+    line_dash="dot",
+    x=2011,
+    line_color="#BABBBB"
+).add_annotation(
+    x=2011,
+    y=.04,
+    text="Season 4 of Breaking Bad Drops",
+    showarrow=False,
+    textangle=-90,
+    xshift=-10,
+    yshift=-70
+)
+```
+
+_This is significant because "Walter" is the first name of the main character "Walter White" from AMC's hit series "Breaking Bad", a show that many regard as the greatest show ever made. The show aired in 2008, but its popularity skyrocketed after the release of its fourth season in 2011. By this we can determine that it was successfully marketed and received enough attention for people to be naming their children after the main character._
+
+__In conclusion, there is a shocking amount of useful demographic information that can be obtained from simple analyses of name trends. By using this information, we can analyze and capitalize on significant cultural trends in the population.__
