@@ -1,103 +1,58 @@
 ---
 layout: cv
-title: Joel Jensen's CV
+title: Joel Jensen's Resume
 ---
-# Joel Jensen
-Computer/Data Scientist, student.
+## Contact Information
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">joelsemail28@gmail.com</a>
-</div>
+- **LinkedIn**: [linkedin.com/in/joel-jensen-22901117](https://linkedin.com/in/joel-jensen-22901117)
+- **GitHub**: [https://github.com/Joeljensen28](https://github.com/Joeljensen28)
+- **Phone**: 385-224-9582
+- **Email**: joelsemail28@gmail.com
 
+## Academic / Personal Projects
 
-## Currently
+View my [portfolio](extracirricular.qmd)
 
-Student at BYU-Idaho studying computer science and data science.
+## Experience
 
-### Specialized in
+### Computer Vision / Machine Learning Intern | CloudPano | Springfield, MO  
+_Sep 2024 – Present_
 
-Machine learning, artificial intelligence, data analysis.
+- Conducted research on different methods for 3D reconstructions of homes.
+- Worked to build an AI pipeline that received videos and used structure from motion to convert them into 3D floor plans for virtual tours.
 
+### Data Science Teaching Assistant and Tutor | BYU-Idaho | Rexburg, ID  
+_Jan 2024 - Jul 2024_
 
-### Research interests
+- Helped students develop intuition for data inference, provided feedback on data visualizations, and graded students' work.
+- Guided students in data science programming, helped them develop programming skills and solve problems.
 
-Machine learning algorithms, NLP, deep learning models.
+### Technical Support Specialist | Jolt | Lehi, UT  
+_Oct 2022 - Jun 2023_
 
-
-
-## Projects
-`January 2024-Present`
-__BYU-Idaho Data Science Society__,
-- Worked with data delivered by Grow with Google
-- Provided system which handles course licenses and provides flow for license queue.
-
-
-## Skills
-- Python
-- Pandas
-- Plotly Express
-- SQL/SQLite
-- Tableau
-- HTML
-- CSS
-
+- Engaged with customers over the phone to troubleshoot software and hardware issues.
+- Worked with developers to diagnose and remove bugs.
+- Collaborated with the shipping department to process hardware replacements.
 
 ## Education
 
-`2014-2017`
-__Lone Peak High School__
+### BA in Data Science | BYU-Idaho | Rexburg, ID  
+_Sep 2023 - Present_
 
-`2023-Now`
-__Brigham Young University-Idaho__
+- Minor in statistics. Est. graduation July 2026.
+- Current GPA: 4.0
 
+### High School Diploma | Lone Peak High School | Highland, UT
 
+## Skills
 
-## Occupation
-
-`Jan 2024-Present`
-__Data Science Teacher Assistant__, BYU-Idaho
-
-- Collect data pertaining to student feedback
-- Help students develop data-related intuition
-- Provide feedback on data visualizations to students
-- Grade students' work
-
-`June 2023-August 2023`
-__Personal Assistent__, Acumen
-- Assisted disabled teenager in goals relating to hygiene, sociality, and other daily tasks
-
-`October 2022-June 2023`
-__Technical Support Specialist__, Jolt
-- Engaged with customers over phone to troubleshoot software and hardware
-- Worked with developers to investigate and remove bugs
-- Worked with shipping department to process hardware replacements
-
-`September 2020-September 2022`
-__Missionary__, Church of Jesus Christ of Latter-day Saints
-- Invited others to learn about religious beliefs
-- Conducted instructive meetings for other missionaries
-- Trained other missionaries on teaching strategies
-
-`February 2019-June 2019`
-__General Contractor__, Renaissance Homes
-- Constructed home renovations, fixed roof leaks, and plumbing
-
-`July 2018-February 2019`
-__Waiter__, China Kitchen
-- Served customers
-- Took orders
-- Communicated with chefs
-- Explained menu items
-
-
-
-## Volunteer experience
-
-`March 2018-July 2018`
-__English Teacher__, International Language Programs
-- Planned and taught English lessons through immersive activities and repetition to 2nd and 3rd grade students
-
+- Data wrangling / visualization / analytics
+- RStudio, Tableau
+- Machine learning / neural networks
+- Python, Pandas, Sklearn
+- Computer programming / software engineering
+- C#, JavaScript
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: October 2024 -->

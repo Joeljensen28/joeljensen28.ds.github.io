@@ -30,9 +30,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "about me",
+    "title": "About Me",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "LinkedIn: linkedin.com/in/joel-jensen-22901117\nGitHub: https://github.com/Joeljensen28\nPhone: 385-224-9582\nEmail: joelsemail28@gmail.com"
   },
   {
     "objectID": "index.html#title-2-header",
@@ -149,9 +149,9 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "title": "Joel Jensen’s Resume",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "LinkedIn: linkedin.com/in/joel-jensen-22901117\nGitHub: https://github.com/Joeljensen28\nPhone: 385-224-9582\nEmail: joelsemail28@gmail.com"
   },
   {
     "objectID": "resume.html#currently",
@@ -163,9 +163,9 @@
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+    "title": "Joel Jensen’s Resume",
+    "section": "Education",
+    "text": "Education\n\nBA in Data Science | BYU-Idaho | Rexburg, ID\nSep 2023 - Present\n\nMinor in statistics. Est. graduation July 2026.\nCurrent GPA: 4.0\n\n\n\nHigh School Diploma | Lone Peak High School | Highland, UT"
   },
   {
     "objectID": "resume.html#awards",
@@ -317,9 +317,9 @@
   {
     "objectID": "full_stack.html",
     "href": "full_stack.html",
-    "title": "about me",
+    "title": "Extracirricular Projects",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "This was a project I worked as a project manager on for BYUI Data Science society. We were delivered data from a Mexican car rental company that had been partially cleansed. My primary responsibility was to direct other students by assigning them questions to answer with the data, helping them as they ran into roadblocks. I also contributed by collecting data on different car models’ repair intervals."
   },
   {
     "objectID": "full_stack.html#title-2-header",
@@ -376,5 +376,124 @@
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "resume.html#contact-information",
+    "href": "resume.html#contact-information",
+    "title": "Joel Jensen’s Resume",
+    "section": "",
+    "text": "LinkedIn: linkedin.com/in/joel-jensen-22901117\nGitHub: https://github.com/Joeljensen28\nPhone: 385-224-9582\nEmail: joelsemail28@gmail.com"
+  },
+  {
+    "objectID": "resume.html#academic-personal-projects",
+    "href": "resume.html#academic-personal-projects",
+    "title": "Joel Jensen’s Resume",
+    "section": "Academic / Personal Projects",
+    "text": "Academic / Personal Projects\nView my portfolio"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Joel Jensen’s Resume",
+    "section": "Skills",
+    "text": "Skills\n\nData wrangling / visualization / analytics\nRStudio, Tableau\nMachine learning / neural networks\nPython, Pandas, Sklearn\nComputer programming / software engineering\nC#, JavaScript"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Joel Jensen’s Resume",
+    "section": "Experience",
+    "text": "Experience\n\nComputer Vision / Machine Learning Intern | CloudPano | Springfield, MO\nSep 2024 – Present\n\nConducted research on different methods for 3D reconstructions of homes.\nWorked to build an AI pipeline that received videos and used structure from motion to convert them into 3D floor plans for virtual tours.\n\n\n\nData Science Teaching Assistant and Tutor | BYU-Idaho | Rexburg, ID\nJan 2024 - Jul 2024\n\nHelped students develop intuition for data inference, provided feedback on data visualizations, and graded students’ work.\nGuided students in data science programming, helped them develop programming skills and solve problems.\n\n\n\nTechnical Support Specialist | Jolt | Lehi, UT\nOct 2022 - Jun 2023\n\nEngaged with customers over the phone to troubleshoot software and hardware issues.\nWorked with developers to diagnose and remove bugs.\nCollaborated with the shipping department to process hardware replacements."
+  },
+  {
+    "objectID": "full_stack.html#data-analysis-for-centenario",
+    "href": "full_stack.html#data-analysis-for-centenario",
+    "title": "Extracirricular Projects",
+    "section": "",
+    "text": "This was a project I worked as a project manager on for BYUI Data Science society. We were delivered data from a Mexican car rental company that had been partially cleansed. My primary responsibility was to direct other students by assigning them questions to answer with the data, helping them as they ran into roadblocks. I also contributed by collecting data on different car models’ repair intervals."
+  },
+  {
+    "objectID": "full_stack.html#digit-recognition",
+    "href": "full_stack.html#digit-recognition",
+    "title": "Extracirricular Projects",
+    "section": "Digit Recognition",
+    "text": "Digit Recognition\nThis project was my first attempt at working with neural networks. Collaborating with my brother, we resolved to build a simple model that could detect handwritten digits using the MNIST dataset, classifying them as 0-9."
+  },
+  {
+    "objectID": "full_stack.html#baseball-pitch-predictor",
+    "href": "full_stack.html#baseball-pitch-predictor",
+    "title": "Extracirricular Projects",
+    "section": "Baseball Pitch Predictor",
+    "text": "Baseball Pitch Predictor\nThis was my second attempt at working with neural networks. It was a project I developed for a local baseball team in Idaho Falls which aims to make a prediction on what the next pitch type will be based on the previous five pitches and other conditions that can be recorded pre-pitch. The data was scattered across a few different folders in the repository, so the project began with some wrangling, compiling all the pitch data we had into one single datatable with about 180,000 rows. After that, I removed all features that could not be detected pre-pitch, made the dataset ML-ready, and developed the deep learning model using tools such as tensorflow and kerastuner."
+  },
+  {
+    "objectID": "full_stack.html#apostle-predictor",
+    "href": "full_stack.html#apostle-predictor",
+    "title": "Extracirricular Projects",
+    "section": "Apostle Predictor",
+    "text": "Apostle Predictor\nThis is a simpler, more data cleansing-focused personal project I am working on. In my church, if the president passes away, then the apostle with the greatest seniority becomes the next president. I’m aiming to build a machine learning model that can predict whether or not an apostle will ever become president. I started by scraping data from wikipedia on all the Church’s apostles, past and present, including their birthday, date ordained into the quorum of the twelve apostles, and whether or not they ever became president. Primarily from the first two, I was able to derive their age at ordination, the age of all other apostles at the date of their ordination, and other critical features helpful for predicting if they will become president."
+  },
+  {
+    "objectID": "full_stack.html#crash-analysis-of-motorcycles-in-nyc",
+    "href": "full_stack.html#crash-analysis-of-motorcycles-in-nyc",
+    "title": "Extracirricular Projects",
+    "section": "Crash Analysis of Motorcycles in NYC",
+    "text": "Crash Analysis of Motorcycles in NYC\nThis project is a simple report on a question I had regarding the safety of riding motorcycles. I wanted to learn if it was actually more dangerous to ride a motorcycle, and if so, why. I found a dataset of all reported crashes in the city of New York over the span of several years, along with another dataset of every registered vehicle in NYC. With this, I was able to determine what percentage of motorcyclists actually get in crashes, and how that compares to other types of vehicles."
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "About Me",
+    "section": "",
+    "text": "LinkedIn: linkedin.com/in/joel-jensen-22901117\nGitHub: https://github.com/Joeljensen28\nPhone: 385-224-9582\nEmail: joelsemail28@gmail.com"
+  },
+  {
+    "objectID": "index.html#data-scientiststatistician-studying-with-byu-idaho",
+    "href": "index.html#data-scientiststatistician-studying-with-byu-idaho",
+    "title": "About Me",
+    "section": "Data scientist/statistician studying with BYU-Idaho",
+    "text": "Data scientist/statistician studying with BYU-Idaho\nI’m a full-time student at Brigham Young University-Idaho studying data science with a minor in statistics. I’m currently immersed in data cleansing, analytics, machine learning, and programming. I am fascinated with statistics, computing, and deep learning fields such as computer vision, natural language processing, and predictive analysis.\nMy primary focus is on building my skillset to become the best machine learning engineer I can be. My goal is to obtain a PhD, become a machine learning expert, and help build models that unlock the potential of data and propel industry into a future of innovation!"
+  },
+  {
+    "objectID": "extracirricular.html",
+    "href": "extracirricular.html",
+    "title": "Extracirricular Projects",
+    "section": "",
+    "text": "This was a project I worked as a project manager on for BYUI Data Science society. We were delivered data from a Mexican car rental company that had been partially cleansed. My primary responsibility was to direct other students by assigning them questions to answer with the data, helping them as they ran into roadblocks. I also contributed by collecting data on different car models’ repair intervals."
+  },
+  {
+    "objectID": "extracirricular.html#data-analysis-for-centenario",
+    "href": "extracirricular.html#data-analysis-for-centenario",
+    "title": "Extracirricular Projects",
+    "section": "",
+    "text": "This was a project I worked as a project manager on for BYUI Data Science society. We were delivered data from a Mexican car rental company that had been partially cleansed. My primary responsibility was to direct other students by assigning them questions to answer with the data, helping them as they ran into roadblocks. I also contributed by collecting data on different car models’ repair intervals."
+  },
+  {
+    "objectID": "extracirricular.html#digit-recognition",
+    "href": "extracirricular.html#digit-recognition",
+    "title": "Extracirricular Projects",
+    "section": "Digit Recognition",
+    "text": "Digit Recognition\nThis project was my first attempt at working with neural networks. Collaborating with my brother, we resolved to build a simple model that could detect handwritten digits using the MNIST dataset, classifying them as 0-9."
+  },
+  {
+    "objectID": "extracirricular.html#baseball-pitch-predictor",
+    "href": "extracirricular.html#baseball-pitch-predictor",
+    "title": "Extracirricular Projects",
+    "section": "Baseball Pitch Predictor",
+    "text": "Baseball Pitch Predictor\nThis was my second attempt at working with neural networks. It was a project I developed for a local baseball team in Idaho Falls which aims to make a prediction on what the next pitch type will be based on the previous five pitches and other conditions that can be recorded pre-pitch. The data was scattered across a few different folders in the repository, so the project began with some wrangling, compiling all the pitch data we had into one single datatable with about 180,000 rows. After that, I removed all features that could not be detected pre-pitch, made the dataset ML-ready, and developed the deep learning model using tools such as tensorflow and kerastuner."
+  },
+  {
+    "objectID": "extracirricular.html#apostle-predictor",
+    "href": "extracirricular.html#apostle-predictor",
+    "title": "Extracirricular Projects",
+    "section": "Apostle Predictor",
+    "text": "Apostle Predictor\nThis is a simpler, more data cleansing-focused personal project I am working on. In my church, if the president passes away, then the apostle with the greatest seniority becomes the next president. I’m aiming to build a machine learning model that can predict whether or not an apostle will ever become president. I started by scraping data from wikipedia on all the Church’s apostles, past and present, including their birthday, date ordained into the quorum of the twelve apostles, and whether or not they ever became president. Primarily from the first two, I was able to derive their age at ordination, the age of all other apostles at the date of their ordination, and other critical features helpful for predicting if they will become president."
+  },
+  {
+    "objectID": "extracirricular.html#crash-analysis-of-motorcycles-in-nyc",
+    "href": "extracirricular.html#crash-analysis-of-motorcycles-in-nyc",
+    "title": "Extracirricular Projects",
+    "section": "Crash Analysis of Motorcycles in NYC",
+    "text": "Crash Analysis of Motorcycles in NYC\nThis project is a simple report on a question I had regarding the safety of riding motorcycles. I wanted to learn if it was actually more dangerous to ride a motorcycle, and if so, why. I found a dataset of all reported crashes in the city of New York over the span of several years, along with another dataset of every registered vehicle in NYC. With this, I was able to determine what percentage of motorcyclists actually get in crashes, and how that compares to other types of vehicles."
   }
 ]

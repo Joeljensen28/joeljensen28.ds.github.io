@@ -1,7 +1,0 @@
----
-title: "Storytelling"
----
-
-# Telling Stories With Data
-
-- [Visualizing Name Data] (https://joeljensen28.github.io/joeljensen28.ds.github.io/P1.html)

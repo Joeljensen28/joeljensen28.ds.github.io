@@ -2,8 +2,15 @@
 title: "About Me"
 ---
 
-# Joel Jensen
+## Contact Information
 
-## Computer Science/Data Science Student
+- **LinkedIn**: [linkedin.com/in/joel-jensen-22901117](https://linkedin.com/in/joel-jensen-22901117)
+- **GitHub**: [https://github.com/Joeljensen28](https://github.com/Joeljensen28)
+- **Phone**: 385-224-9582
+- **Email**: joelsemail28@gmail.com
 
-__I am a student at BYU-Idaho studying copmuter science, data science and machine learning. I'm interested in data, AI, ML/deep learning, and programming.__
+## Data scientist/statistician studying with BYU-Idaho
+
+__I'm a full-time student at Brigham Young University-Idaho studying data science with a minor in statistics. I'm currently immersed in data cleansing, analytics, machine learning, and programming. I am fascinated with statistics, computing, and deep learning fields such as computer vision, natural language processing, and predictive analysis.__
+
+__My primary focus is on building my skillset to become the best machine learning engineer I can be. My goal is to obtain a PhD, become a machine learning expert, and help build models that unlock the potential of data and propel industry into a future of innovation!__
