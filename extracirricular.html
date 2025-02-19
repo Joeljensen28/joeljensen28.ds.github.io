@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,12 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-89530a197a77b0844f6520ae99ecc4be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-55de747ca207b7a854f3eb3e7ef789fc.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -120,7 +120,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-analysis-for-centenario" id="toc-data-analysis-for-centenario" class="nav-link active" data-scroll-target="#data-analysis-for-centenario">Data analysis for Centenario</a></li>
+  <li><a href="#dreamnet-raw-audio-generative-ai-model" id="toc-dreamnet-raw-audio-generative-ai-model" class="nav-link active" data-scroll-target="#dreamnet-raw-audio-generative-ai-model">DreamNet (raw audio generative AI model)</a></li>
+  <li><a href="#data-analysis-for-centenario" id="toc-data-analysis-for-centenario" class="nav-link" data-scroll-target="#data-analysis-for-centenario">Data analysis for Centenario</a></li>
   <li><a href="#digit-recognition" id="toc-digit-recognition" class="nav-link" data-scroll-target="#digit-recognition">Digit Recognition</a></li>
   <li><a href="#baseball-pitch-predictor" id="toc-baseball-pitch-predictor" class="nav-link" data-scroll-target="#baseball-pitch-predictor">Baseball Pitch Predictor</a></li>
   <li><a href="#apostle-predictor" id="toc-apostle-predictor" class="nav-link" data-scroll-target="#apostle-predictor">Apostle Predictor</a></li>
@@ -151,6 +152,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="dreamnet-raw-audio-generative-ai-model" class="level2">
+<h2 class="anchored" data-anchor-id="dreamnet-raw-audio-generative-ai-model"><a href="https://github.com/Joeljensen28/DreamNet">DreamNet (raw audio generative AI model)</a></h2>
+<p>This project is what I’m currently working on in my free time to expand my knowledge of neural networks and generative AI. The model will be trained on &gt;50 hours of dreampunk music, a genre of electronic music known for its surreal and often incoherent soundscapes. My goal with this is to see if the often surreal artifacts and other incoherencies that emerge from generative AI might enhance the dreampunk genre.</p>
+</section>
 <section id="data-analysis-for-centenario" class="level2">
 <h2 class="anchored" data-anchor-id="data-analysis-for-centenario"><a href="https://colab.research.google.com/gist/c-a-s-t-l-e/d1820a1cd153a3eff677b780604fb06e/centenario_mostly_final.ipynb">Data analysis for Centenario</a></h2>
 <p>This was a project I worked as a project manager on for BYUI Data Science society. We were delivered data from a Mexican car rental company that had been partially cleansed. My primary responsibility was to direct other students by assigning them questions to answer with the data, helping them as they ran into roadblocks. I also contributed by collecting data on different car models’ repair intervals.</p>
@@ -401,8 +406,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -513,7 +516,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
