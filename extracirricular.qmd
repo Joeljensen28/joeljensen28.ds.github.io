@@ -3,6 +3,10 @@ title: "Extracirricular Projects"
 subtitle: "Portfolio of projects I'm working on in my free time"
 ---
 
+## [DreamNet (raw audio generative AI model)](https://github.com/Joeljensen28/DreamNet)
+
+This project is what I'm currently working on in my free time to expand my knowledge of neural networks and generative AI. The model will be trained on >50 hours of dreampunk music, a genre of electronic music known for its surreal and often incoherent soundscapes. My goal with this is to see if the often surreal artifacts and other incoherencies that emerge from generative AI might enhance the dreampunk genre.
+
 ## [Data analysis for Centenario](https://colab.research.google.com/gist/c-a-s-t-l-e/d1820a1cd153a3eff677b780604fb06e/centenario_mostly_final.ipynb)
 
 This was a project I worked as a project manager on for BYUI Data Science society. We were delivered data from a Mexican car rental company that had been partially cleansed. My primary responsibility was to direct other students by assigning them questions to answer with the data, helping them as they ran into roadblocks. I also contributed by collecting data on different car models' repair intervals.
